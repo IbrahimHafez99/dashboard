@@ -1,0 +1,40 @@
+.logo {
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 1em;
+  height: 93vh;
+  width: 100%;
+  padding: 1em 0.5em;
+  background-color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 60%;
+}
+
+@media (max-width: 480px) {
+  .nav {
+    display: none ;
+  }
+}
